@@ -9,10 +9,14 @@ public class JavaTypeCasting {
         int numero = 9;
         double ensanchamiento = numero;
 
+        System.out.println(ensanchamiento);//Output: 9.0
+
         //El estrechamiento debe ser hecho manualmente poniendo entre parentesis el tipo de variable
 
-        double original = 9.59;
-        int numeroNumero = (int)original; 
+        double original = 3.14;
+        int estrechamiento = (int)original; 
+
+        System.out.println(estrechamiento);//Output: 3
 
     }
 }
