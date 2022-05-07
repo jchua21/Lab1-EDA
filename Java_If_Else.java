@@ -18,11 +18,9 @@ public class Java_If_Else{
             //Genero un num que inddicará el número de asiento del cliente
             int asiento = (int)(Math.random()*(10-1+1)) + 1;
             
-            if(asiento % 2 == 0){
-                System.out.println("Diríjase a la Derecha");
-            }else{
-                System.out.println("Dirijase a la Izquierda");
-            }
+            //Java Short Hand If...Else
+            String direccion = (asiento%2 == 0) ? "Derecha" : "Izquierda";
+            System.out.println("Dirijase a la " + direccion);
         }
     }
 }
