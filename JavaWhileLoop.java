@@ -10,7 +10,7 @@ public class JavaWhileLoop{
         System.out.print("Por favor ingrese el valor inicial : ");
         inicio = scan.nextInt();
 
-        System.out.print("Por favor ahora ingrese el valor final :");
+        System.out.print("Por favor ahora ingrese el valor final : ");
         fin = scan.nextInt();
 
         System.out.println("Los números mostrados son : ");
